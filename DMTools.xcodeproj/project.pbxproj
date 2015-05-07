@@ -14,6 +14,9 @@
 		0A2B4A941AFBBF2000F17894 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2B4A931AFBBF2000F17894 /* Images.xcassets */; };
 		0A2B4A971AFBBF2000F17894 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A2B4A951AFBBF2000F17894 /* LaunchScreen.xib */; };
 		0A2B4AA31AFBBF2000F17894 /* DMToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B4AA21AFBBF2000F17894 /* DMToolsTests.m */; };
+		0A2B4AB31AFBBF3B00F17894 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B4AAE1AFBBF3B00F17894 /* NSArray+Log.m */; };
+		0A2B4AB41AFBBF3B00F17894 /* NSData+DMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B4AB01AFBBF3B00F17894 /* NSData+DMExtension.m */; };
+		0A2B4AB51AFBBF3B00F17894 /* UIImage+DMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B4AB21AFBBF3B00F17894 /* UIImage+DMExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		0A2B4A9C1AFBBF2000F17894 /* DMToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2B4AA11AFBBF2000F17894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A2B4AA21AFBBF2000F17894 /* DMToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMToolsTests.m; sourceTree = "<group>"; };
+		0A2B4AAD1AFBBF3B00F17894 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		0A2B4AAE1AFBBF3B00F17894 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		0A2B4AAF1AFBBF3B00F17894 /* NSData+DMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+DMExtension.h"; sourceTree = "<group>"; };
+		0A2B4AB01AFBBF3B00F17894 /* NSData+DMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+DMExtension.m"; sourceTree = "<group>"; };
+		0A2B4AB11AFBBF3B00F17894 /* UIImage+DMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DMExtension.h"; sourceTree = "<group>"; };
+		0A2B4AB21AFBBF3B00F17894 /* UIImage+DMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DMExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 		0A2B4A851AFBBF2000F17894 /* DMTools */ = {
 			isa = PBXGroup;
 			children = (
+				0A2B4AAC1AFBBF2C00F17894 /* Tools */,
 				0A2B4A8A1AFBBF2000F17894 /* AppDelegate.h */,
 				0A2B4A8B1AFBBF2000F17894 /* AppDelegate.m */,
 				0A2B4A8D1AFBBF2000F17894 /* ViewController.h */,
@@ -117,6 +127,19 @@
 				0A2B4AA11AFBBF2000F17894 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A2B4AAC1AFBBF2C00F17894 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0A2B4AAD1AFBBF3B00F17894 /* NSArray+Log.h */,
+				0A2B4AAE1AFBBF3B00F17894 /* NSArray+Log.m */,
+				0A2B4AAF1AFBBF3B00F17894 /* NSData+DMExtension.h */,
+				0A2B4AB01AFBBF3B00F17894 /* NSData+DMExtension.m */,
+				0A2B4AB11AFBBF3B00F17894 /* UIImage+DMExtension.h */,
+				0A2B4AB21AFBBF3B00F17894 /* UIImage+DMExtension.m */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +242,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A2B4AB51AFBBF3B00F17894 /* UIImage+DMExtension.m in Sources */,
 				0A2B4A8F1AFBBF2000F17894 /* ViewController.m in Sources */,
+				0A2B4AB31AFBBF3B00F17894 /* NSArray+Log.m in Sources */,
+				0A2B4AB41AFBBF3B00F17894 /* NSData+DMExtension.m in Sources */,
 				0A2B4A8C1AFBBF2000F17894 /* AppDelegate.m in Sources */,
 				0A2B4A891AFBBF2000F17894 /* main.m in Sources */,
 			);
